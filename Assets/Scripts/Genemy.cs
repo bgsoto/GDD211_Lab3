@@ -26,7 +26,7 @@ public class Genemy : enemy
          if ( collision.gameObject.CompareTag("Cube")) 
         
             { 
-            // cod();
+             cod();
             Debug.Log("1");
             }
        }
