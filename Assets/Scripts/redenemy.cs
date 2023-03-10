@@ -5,12 +5,7 @@ using UnityEngine;
 public class redenemy : enemy
 {
 
-
-
-
-
-
-
+    // Start is called before the first frame update
     void Start()
     {
         time = Time.deltaTime;
@@ -22,7 +17,15 @@ public class redenemy : enemy
         transform.position -= new Vector3(speed, 0f, 0f);
     }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("RedCubeCatcher"))
 
+        {
+            cod();
+            Debug.Log("1");
+        }
+    }
 
 }
 

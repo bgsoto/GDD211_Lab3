@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6151891939112314262}
   - component: {fileID: 7896336722017327802}
   - component: {fileID: 6566184771895361990}
-  - component: {fileID: 4892282580424129127}
+  - component: {fileID: 7070390779873361858}
   m_Layer: 0
   m_Name: Rcube
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5962073012790033237}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.711, y: 0.496, z: -1.58}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4892282580424129127
+--- !u!114 &7070390779873361858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 5962073012790033237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a85294e9e7fe224ea80addea5e17523, type: 3}
+  m_Script: {fileID: 11500000, guid: 8893fcb869f167a41b26b7768f26aa51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.1
+  speed: 0.05
   time: 0

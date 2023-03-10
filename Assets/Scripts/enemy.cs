@@ -3,20 +3,22 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public  class enemy : MonoBehaviour
+public class enemy : MonoBehaviour
 {
 
     public float speed;
     public float time;
+    //public int sCount;
 
 
     public void cod()
     {
-
-       Destroy(gameObject);
-        Debug.Log("hit");
-
+        //sCount = sCount + 1;
+        
+        Destroy(gameObject);
+       
+        
     }
 
-    // viirual allows override 
+    
 }

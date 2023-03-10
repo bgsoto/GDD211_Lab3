@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.Windows.Speech;
 
 public class Genemy : enemy
 {
-    
-   
 
+
+    public scoreKeeper scoreKeeper;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,11 +24,12 @@ public class Genemy : enemy
 
     void OnCollisionEnter(Collision collision)
         {
-         if ( collision.gameObject.CompareTag("Cube")) 
+         if (collision.gameObject.CompareTag("GreenCubeCatcher")) 
         
-            { 
-             cod();
-            Debug.Log("1");
+            {
+           // sCount = sCount + 1;
+            cod();
+            
             }
        }
 
